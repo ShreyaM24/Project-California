@@ -34,7 +34,7 @@ Project California is a data science project focused on analyzing and extracting
 2. Navigate to the project directory:
 
    ```bash
-   cd Project-Gurgaon
+   cd Project-California
    ```
 
 3. Install required dependencies:
