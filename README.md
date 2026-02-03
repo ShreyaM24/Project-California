@@ -25,27 +25,11 @@ Project California is a data science project focused on analyzing and extracting
 
 ---
 
-## 📂 Project Structure
-```
-
-project_gurgaon/
-│
-├── data/                 # Dataset files
-├── notebooks/            # Jupyter notebooks for analysis
-├── src/                  # Source code (if applicable)
-├── README.md             # Project documentation
-├── .gitignore            # Ignored files
-└── requirements.txt      # Required Python packages
-
-````
-
----
-
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ShreyaM24/Project-Gurgaon.git
-````
+   git clone https://github.com/ShreyaM24/Project-California.git
+    ```
 
 2. Navigate to the project directory:
 
@@ -72,43 +56,3 @@ project_gurgaon/
 * Key patterns and trends were identified through EDA
 * Machine learning models were trained and evaluated
 * The results demonstrate how data-driven approaches can support better decision-making
-
-*(Detailed results are available inside the notebooks.)*
-
----
-
-## 📌 Future Improvements
-
-* Improve model performance with advanced algorithms
-* Add data visualizations and dashboards
-* Deploy the model as a web application
-
----
-
-## 👩‍💻 Author
-
-**Shreya**
-B.Tech IT (Data Science Enthusiast)
-
----
-
-## 📜 License
-
-This project is for educational purposes only.
-
-```
-
----
-
-### ✅ Next steps I recommend
-- Add a `requirements.txt`
-- Clean folder naming (`data/`, `notebooks/`)
-- Optional: screenshots of graphs in README
-
-If you want, I can:
-- ✨ Customize this README for **college submission**
-- 🌐 Make it **portfolio-ready**
-- 🧠 Tailor it specifically to **what your dataset actually is**
-
-Just tell me 💙
-```
