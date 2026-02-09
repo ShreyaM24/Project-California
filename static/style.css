@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* BACKGROUND */
+body {
+    margin: 0;
+    background: #0f1a14;   /* deep green-black */
+    color: #e5e7eb;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #13261c;
+    color: #f9fafb;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-btn {
+    background: #f4b400;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 480px;
+}
+
+.badge {
+    background: #f4b400;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin: 20px 0;
+    color: #f9fafb;
+}
+
+.hero-text span {
+    color: #f4b400;
+}
+
+.hero-text p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+/* FORM CARD */
+.card {
+    background: #182c21;
+    padding: 30px;
+    border-radius: 20px;
+    width: 1000px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+}
+
+/* FORM ELEMENTS */
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #e5e7eb;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #2f4f3d;
+    outline: none;
+    background: #0f1a14;
+    color: #f9fafb;
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+input:focus, select:focus {
+    border-color: #f4b400;
+    box-shadow: 0 0 0 2px rgba(244, 180, 0, 0.25);
+}
+
+/* BUTTON */
+.predict-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    background: #f4b400;
+    color: #1a1a1a;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.predict-btn:hover {
+    background: #d9a200;
+}
+
+/* RESULT */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #0f1a14;
+    border-left: 5px solid #f4b400;
+    border-radius: 10px;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+.result strong {
+    font-size: 22px;
+    color: #f4b400;
+}

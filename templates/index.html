@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House Price Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo"><i class="fa-regular fa-house"></i> California House Price Prediction</div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Predict <span>House Prices</span><br>With Machine Learning</h1>
+        <p>
+            Estimate property value using location, income and housing features.
+        </p>
+    </div>
+
+    <div class="card">
+        <form method="POST">
+
+            <label>Location</label>
+            <select name="ocean_proximity" required>
+                <option value="">Select option</option>
+                <option value="NEAR BAY">Near Bay</option>
+                <option value="NEAR OCEAN">Near Ocean</option>
+                <option value="<1H OCEAN">Less than 1 Hour to Ocean</option>
+                <option value="INLAND">Inland</option>
+            </select>
+            <input type="number" name="housing_median_age" placeholder="House Age (years)" required>
+            <input type="number" name="total_rooms" placeholder="Total Rooms" required>
+            <input type="number" name="total_bedrooms" placeholder="Total Bedrooms" required>
+            <input type="number" name="population" placeholder="Population" required>
+            <input type="number" name="households" placeholder="Households" required>
+            <input type="number" step="0.01" name="median_income" placeholder="Median Income" required>
+
+            <button type="submit" class="predict-btn">
+                Predict Price →
+            </button>
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+             <i class="fa-solid fa-dollar-sign"></i> Estimated Price<br>
+            <strong>{{ prediction | round(2) }}</strong>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<script>
+    if (window.performance.navigation.type === 1) {
+        document.querySelector(".result")?.remove();
+    }
+</script>
+
+
+</body>
+</html>
