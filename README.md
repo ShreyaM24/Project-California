@@ -21,8 +21,20 @@ Project California is a data science project focused on analyzing and extracting
   - Matplotlib /Seaborn
   - Scikit-learn
   - Jupyter Notebook
-- **Version Control:** Git & GitHub
+- **Frontend:**
+  - HTML
+  - CSS
 
+## 🌐 Web Application
+
+- Built using Flask
+- Users input housing-related details
+- Location is selected using intuitive categories:
+  - Near Bay
+  - Near Ocean
+  - <1H Ocean
+  - Inland
+The app returns an estimated house price instantly
 ---
 
 ## 🚀 How to Run the Project
@@ -43,11 +55,16 @@ Project California is a data science project focused on analyzing and extracting
    pip install -r requirements.txt
    ```
 
-4. Open the Jupyter notebooks:
+4. Run the Flask application:
 
    ```bash
-   jupyter notebook
+   python app.py
    ```
+
+5. Open your browser and visit:
+```bash
+http://127.0.0.1:5000/
+```
 
 ---
 
