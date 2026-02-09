@@ -1,7 +1,7 @@
 # Project California 🏙️📊
 
 ## 📌 Overview
-Project California is a data science project focused on analyzing and extracting insights from real-world data related to California. The goal of this project is to perform data preprocessing, exploratory data analysis, feature engineering, and model building to derive meaningful conclusions and predictions.
+- Project California is a data science project focused on analyzing and extracting insights from real-world data related to California. The goal of this project is to perform data preprocessing, exploratory data analysis, feature engineering, and model building to derive meaningful conclusions and predictions.
 ---
 
 ## 🎯 Objectives
